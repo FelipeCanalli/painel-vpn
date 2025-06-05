@@ -1,0 +1,52 @@
+:root {
+  --color-primary: #3468b0;
+  --color-secondary: #41608b;
+  --color-tertiary: #1c6ee0;
+  --color-quaternary: #3d4c61;
+  --color-quinary: #2b3036;
+  --color-success: #28a745;
+  --color-error: #dc3545;
+}
+
+.background {
+  background-color: var(--color-secondary);
+}
+
+.centralize-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.centralize-text {
+  text-align: center;
+}
+
+.centralize-v {
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  background-color: #fff;
+  width: 50vh;
+  padding: 16px;
+}
+
+.primary-btn {
+  background-color: var(--color-secondary);
+  width: 8vh;
+  color: white;
+}
+
+.primary-btn:hover {
+  background-color: var(--color-quaternary);
+  color: white;
+}
+
+/* Page index.html */
+
+#text-company-login {
+  margin-left: 20px;
+}
